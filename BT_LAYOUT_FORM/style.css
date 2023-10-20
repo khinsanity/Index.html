@@ -1,0 +1,66 @@
+/* Reset default margin, padding, and set background color for HTML and body */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #181818;
+}
+
+/* Style the container div */
+.container {
+  position: relative;
+  bottom: -20%; /* Position the container 20% up from the bottom of its parent */
+  width: 300px;
+  margin: 0 auto; /* Center the container horizontally */
+  padding: 20px;
+  border: 3px solid #ccc;
+  border-radius: 10px;
+  background-color: #e8e8e8;
+  box-shadow: 3px 2px 10px #ccc; /* Add a box shadow for a subtle depth effect */
+}
+
+/* Style the copyright text */
+.copyright {
+  position: relative;
+  text-align: center;
+  bottom: -25%; /* Position the text 25% up from the bottom of its parent */
+  color: #252323;
+  font-size: xx-small; /* Font size for the copyright text */
+}
+
+/* Style for columns */
+.col {
+  margin-bottom: 15px;
+}
+
+/* Style for submit button */
+input[type="submit"] {
+  width: 10%;
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Style for form checks (e.g., checkboxes or radio buttons) */
+.form-check {
+  margin: 8px 0;
+}
+
+/* Style for the toggle switch positioned at the top right */
+#switch {
+  position: absolute;
+  top: 0; /* Position at the top of the screen */
+  right: 20px; /* Adjust the right value to control the horizontal position */
+  z-index: 1000; /* Control the stacking order, making it appear on top if needed */
+}
+
+
+.dark-mode {
+  background-color: #ccc;
+  color: #000000;
+  
+}
